@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+
+
+/* about us----------------------------------------------------------------------------- */
+#about-us{
+    position: absolute;
+    width:  1512px;
+    height: 606px;
+    left: 0px;
+    top: 746px;
+    z-index: 100;
+    
+}
+.rectangle{
+    background-color: rgba(11, 22, 89, 0.05);
+    position: absolute;
+    z-index: -100px;
+    filter: blur(20px);
+    backdrop-filter: blur(4px); 
+    width:  1512px;
+    height: 606px;
+    left: 0px;
+    top: 746px;
+}
+
+.our-goal{
+    position: relative;
+}
+
+.who-we-are h1,
+.our-goal h1{
+    font-family: Merienda;
+    color: #8BB10C;
+    text-transform: capitalize;
+    font-size: 48px;
+    margin-left: 160px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#about-us p{
+    /* position: absolute; */
+    width: 1088px;
+    height: 144px;
+    margin-left: 260px;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.75);
+
+}

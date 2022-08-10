@@ -1,0 +1,54 @@
+/*==================================== footer section ========================================= */
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 284px;
+    left: 0px;
+    top: 2273.61px;
+    background: rgba(11, 22, 89, 0.05);
+    backdrop-filter: blur(4px);
+}
+
+.footer-content{
+  margin: 36px 172px;
+  display: flex;
+}
+
+.footer-content a img{
+    width: 305.54px;
+    height: 164px;
+    float: left;
+    margin-right: 192.48px;
+}
+
+.social-media-links{  
+    margin-top: 36px;
+}
+
+.social-media-links i{
+    font-size: 24px;
+    color: #0B1659;
+    padding: 0 24px;
+}
+
+
+.company h1{
+    font-family: Merienda;
+    text-transform: capitalize;
+    color: #0B1659;
+    margin-top: 24px;
+    margin-left: 192.46px;
+}
+
+.footer span{
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    text-transform: capitalize;
+    fill: #0B1659;
+    margin-left: 650px;
+    
+}

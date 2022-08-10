@@ -1,0 +1,143 @@
+/*=========================================== app features section ===================================================*/
+
+.blue-green-gradient{
+    position: absolute;
+    width: 438.84px;
+    height: 433.35px;
+    left: -159px;
+    top: 1450.8px;
+    border-radius: 400px;
+    background: radial-gradient(98.23% 98.23% at 39.94% 8.35%, #8DB30C 0%, #0B1659 100%) ;
+    opacity: 0.2;
+    
+}
+
+/* .app-features{
+    margin-left: 400px;
+    background-color: black;
+    position: absolute;
+width: 1511px;
+height: 736.8px;
+left: -159px;
+top: 1430.8px;
+} */
+
+/* .app-features {
+    background: red;
+} */
+
+.features-container {
+    background: red;
+}
+
+.app-features-header h1{
+    position: absolute;
+    width: 486px;
+    height: 48px;
+    left: 560px;
+    top: 1505.61px;
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #0B1659;
+
+}
+
+#app-features span{
+    color: #8BB10C;
+}
+
+.cards-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 36px;
+    grid-row-gap: 36px;
+    
+}
+
+.cards-grid h1{
+    font-family: Merienda;
+    text-transform: capitalize;
+    color: #8DB30C;
+}
+
+.card p{
+    position: absolute;
+    width: 475px;
+    height: 96px;
+    left: 48px;
+    top: 100px;
+
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 48px;
+    gap: 8px;
+    margin-left: 20px;
+}
+
+
+
+.card-one{
+    
+    position: absolute;
+    width: 578px;
+    height: 250px;
+    left: 160px;
+    top: 1627.61px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.card-two{
+    
+    position: absolute;
+    width: 578px;
+    height: 253.61px;
+    left: 774px;
+    top: 1625.61px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.card-three{
+    
+    position: absolute;
+    width: 578px;
+    height: 250px;
+    left: 160px;
+    top: 1917.61px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.card-four{
+    
+    position: absolute;
+    width: 578px;
+    height: 253.61px;
+    left: 774px;
+    top: 1915.61px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
