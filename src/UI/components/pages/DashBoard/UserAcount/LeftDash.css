@@ -1,0 +1,128 @@
+.LeftDash{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 13%;
+    bottom: 0%;
+    height: 90%;
+    width: 15%;
+    margin-left: 5%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+}
+.LeftDash #top{
+
+}
+
+.LeftDash #list{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px;
+    gap: 25px;
+    top: 2%;
+    bottom: 0%;
+    list-style-type: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    left: 23%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;   
+}
+.LeftDash #linklist{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.8);
+    list-style-type: none;
+}
+.LeftDash #homeLogo{
+    position: absolute;
+    right: 95%;
+    top: 2%;
+        
+}
+.LeftDash #boardLogo{
+    position: absolute;
+    right: 95%;
+    top: 8.5%;      
+}
+
+.LeftDash #safeLogo{
+    position: absolute;
+    right: 95%;
+    top: 15%;     
+}
+.LeftDash #storyLogo{
+    position: absolute;
+    right: 95%;
+    top: 21.5%;       
+}
+
+.LeftDash #centre h1{
+    position: absolute;
+    top: 30%;
+    text-transform: capitalize;
+    right: 20%;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 48px; 
+    color: #8DB30C;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+    
+}
+
+.LeftDash .buttom h1{
+    position: absolute;
+    top: 70%;
+    text-transform: capitalize;
+    right: 32%;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 48px; 
+    color: #8DB30C;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+    
+}
+
+.buttom #listBottom {
+    position: absolute;
+    top: 76%;
+    text-transform: capitalize;
+    right: 20%;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; 
+    color: rgba(0, 0, 0, 0.5);
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+    list-style-type: none;
+    gap: 25px;
+    
+    
+}
+
+.buttom #logout{
+    position: absolute;
+    right: 95%;
+    top: 150%;     
+}
+.buttom #picture{
+    position: absolute;
+    right: 95%;
+    top: 21.5%;       
+}

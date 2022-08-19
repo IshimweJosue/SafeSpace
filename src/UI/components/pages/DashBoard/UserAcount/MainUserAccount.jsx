@@ -1,5 +1,7 @@
 import React from 'react'
+import LeftDash from './LeftDash';
 import './MainUserAccount.css';
+import RightDash from './RightDash';
 import UserNav from './UserNav';
 
 
@@ -8,6 +10,9 @@ class MainUserAccount extends React.Component{
         return<>
 
         <UserNav/>
+        <LeftDash/>
+        <RightDash/>
+        
 
 
 

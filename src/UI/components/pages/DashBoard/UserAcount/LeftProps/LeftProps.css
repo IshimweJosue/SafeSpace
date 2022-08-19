@@ -1,0 +1,15 @@
+
+.profile{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+left: 10.48%;
+right: 17.03%;
+top: 33.6%;
+bottom: 21.82%;
+ border: 30px
+}
